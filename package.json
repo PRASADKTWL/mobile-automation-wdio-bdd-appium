@@ -1,0 +1,40 @@
+{
+  "name": "cucumber-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "wdio": "wdio run ./wdio.conf.js"
+  },
+  "keywords": [
+    "appium",
+    "javascript",
+    "webdriverio",
+    "bdd",
+    "pom"
+  ],
+  "author": "Prasad Kotwal",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.14.7",
+    "@wdio/allure-reporter": "^8.39.0",
+    "@wdio/appium-service": "^8.39.0",
+    "@wdio/cli": "^8.39.0",
+    "@wdio/cucumber-framework": "^8.39.0",
+    "@wdio/local-runner": "^8.39.0",
+    "@wdio/spec-reporter": "^8.39.0",
+    "appium": "^2.10.3",
+    "appium-uiautomator2-driver": "^3.5.6",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.2",
+    "wdio-video-reporter": "^5.2.0"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^10.8.0",
+    "@delta-reporter/wdio-delta-reporter-service": "^1.1.10",
+    "@wdio/globals": "^8.39.0",
+    "allure-commandline": "^2.29.0",
+    "cucumber": "^6.0.7"
+  }
+}

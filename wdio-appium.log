@@ -1,0 +1,107 @@
+[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session[39m [90m{"capabilities":{"alwaysMatch":{"platformName":"Android","appium:deviceName":"Resizable (Experimental) API 34","appium:platformVersion":"14.0","appium:automationName":"UiAutomator2","appium:app":"C:\\Users\\User\\Downloads\\appium-webdriverio-cucumber-master\\appium-webdriverio-cucumber-master\\app\\andriod\\Android-MyDemoAppRN.1.3.0.build-244.apk","appium:appActivity":"com.saucelabs.mydemoapp.rn.MainActivity","appium:appPackage":"com.saucelabs.mydemoapp.rn","appium:noReset":true,"appium:newCommandTimeout":180,"appium:fullReset":false},"firstMatch":[{}]},"desiredCapabilities":{"platformName":"Android","appium:deviceName":"Resizable (Experimental) API 34","appium:platformVersion":"14.0","appium:automationName":"UiAutomator2","appium:app":"C:\\Users\\User\\Downloads\\appium-webdriverio-cucumber-master\\appium-webdriverio-cucumber-master\\app\\andriod\\Android-MyDemoAppRN.1.3.0.build-244.apk","appium:appActivity":"com.saucelabs.mydemoapp.rn.MainActivity","appium:appPackage":"com.saucelabs.mydemoapp.rn","appiu...[39m
+[38;5;18m[AppiumDriver@bc96][0m Calling AppiumDriver.createSession() with args: [{"platformName":"Android","appium:deviceName":"Resizable (Experimental) API 34","appium:platformVersion":"14.0","appium:automationName":"UiAutomator2","appium:app":"C:\\Users\\User\\Downloads\\appium-webdriverio-cucumber-master\\appium-webdriverio-cucumber-master\\app\\andriod\\Android-MyDemoAppRN.1.3.0.build-244.apk","appium:appActivity":"com.saucelabs.mydemoapp.rn.MainActivity","appium:appPackage":"com.saucelabs.mydemoapp.rn","appium:noReset":true,"appium:newCommandTimeout":180,"appium:fullReset":false},null,{"alwaysMatch":{"platformName":"Android","appium:deviceName":"Resizable (Experimental) API 34","appium:platformVersion":"14.0","appium:automationName":"UiAutomator2","appium:app":"C:\\Users\\User\\Downloads\\appium-webdriverio-cucumber-master\\appium-webdriverio-cucumber-master\\app\\andriod\\Android-MyDemoAppRN.1.3.0.build-244.apk","appium:appActivity":"com.saucelabs.mydemoapp.rn.MainActivity","appium:appPackage":"com.saucelabs.mydemoapp.rn","appium:noReset":true,"appium:newCommandTimeout":180,"app...
+[38;5;18m[AppiumDriver@bc96][0m Event 'newSessionRequested' logged at 1721454193049 (11:13:13 GMT+0530 (India Standard Time))
+[38;5;112m[Appium][0m Attempting to find matching driver for automationName 'UiAutomator2' and platformName 'Android'
+[38;5;112m[Appium][0m The 'uiautomator2' driver was installed and matched caps.
+[38;5;112m[Appium][0m Will require it at C:\Users\User\Downloads\appium-webdriverio-cucumber-master\appium-webdriverio-cucumber-master\node_modules\appium-uiautomator2-driver
+[38;5;112m[Appium][0m Requiring driver at C:\Users\User\Downloads\appium-webdriverio-cucumber-master\appium-webdriverio-cucumber-master\node_modules\appium-uiautomator2-driver\build\index.js
+[38;5;18m[AppiumDriver@bc96][0m Appium v2.10.3 creating new AndroidUiautomator2Driver (v3.5.6) session
+[38;5;18m[AppiumDriver@bc96][0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[38;5;18m[AppiumDriver@bc96][0m Appium's BaseDriver version is 9.10.3
+[38;5;18m[AppiumDriver@bc96][0m AndroidUiautomator2Driver's BaseDriver version is 9.10.3
+[38;5;-29m[AndroidUiautomator2Driver@3229][0m undefined
+[38;5;-29m[AndroidUiautomator2Driver@3229][0m Creating session with W3C capabilities: {
+  "alwaysMatch": {
+    "platformName": "Android",
+    "appium:deviceName": "Resizable (Experimental) API 34",
+    "appium:platformVersion": "14.0",
+    "appium:automationName": "UiAutomator2",
+    "appium:app": "C:\\Users\\User\\Downloads\\appium-webdriverio-cucumber-master\\appium-webdriverio-cucumber-master\\app\\andriod\\Android-MyDemoAppRN.1.3.0.build-244.apk",
+    "appium:appActivity": "com.saucelabs.mydemoapp.rn.MainActivity",
+    "appium:appPackage": "com.saucelabs.mydemoapp.rn",
+    "appium:noReset": true,
+    "appium:newCommandTimeout": 180,
+    "appium:fullReset": false
+  },
+  "firstMatch": [
+    {}
+  ]
+}
+[38;5;-29m[AndroidUiautomator2Driver@3229][0m Session created with session id: 0acad0aa-cf66-4b01-9df2-4e9701bfb71d
+[38;5;229m[ADB][0m Found 1 'build-tools' folders under 'C:\Users\User\AppData\Local\Android\Sdk' (newest first):
+[38;5;229m[ADB][0m     C:\Users\User\AppData\Local\Android\Sdk\build-tools\35.0.0
+[38;5;229m[ADB][0m Using 'adb.exe' from 'C:\Users\User\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+[38;5;229m[ADB][0m Running 'C:\Users\User\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 start-server'
+[38;5;-29m[AndroidUiautomator2Driver@3229][0m Retrieving device list
+[38;5;229m[ADB][0m Trying to find connected Android devices
+[38;5;229m[ADB][0m Getting connected devices
+[38;5;229m[ADB][0m Connected devices: [{"udid":"emulator-5554","state":"device"}]
+[38;5;-29m[AndroidUiautomator2Driver@3229][0m Looking for a device with Android '14.0.0'
+[38;5;229m[ADB][0m Setting device id to emulator-5554
+[38;5;229m[ADB][0m Getting device platform version
+[38;5;229m[ADB][0m Running 'C:\Users\User\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell getprop ro.build.version.release'
+[38;5;229m[ADB][0m Current device property 'ro.build.version.release': 14
+[38;5;-29m[AndroidUiautomator2Driver@3229][0m Using device: emulator-5554
+[38;5;229m[ADB][0m Using 'adb.exe' from 'C:\Users\User\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+[38;5;229m[ADB][0m Running 'C:\Users\User\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 start-server'
+[38;5;229m[ADB][0m Setting device id to emulator-5554
+[38;5;123m[BaseDriver][0m Using local app 'C:\Users\User\Downloads\appium-webdriverio-cucumber-master\appium-webdriverio-cucumber-master\app\andriod\Android-MyDemoAppRN.1.3.0.build-244.apk'
+[38;5;-29m[AndroidUiautomator2Driver@3229][0m Checking whether app is actually present
+[38;5;229m[ADB][0m Running 'C:\Users\User\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell getprop ro.build.version.sdk'
+[38;5;229m[ADB][0m Current device property 'ro.build.version.sdk': 34
+[38;5;229m[ADB][0m Getting device platform version
+[38;5;229m[ADB][0m Running 'C:\Users\User\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell getprop ro.build.version.release'
+[38;5;229m[ADB][0m Current device property 'ro.build.version.release': 14
+[38;5;229m[ADB][0m Device API level: 34
+[38;5;-29m[AndroidUiautomator2Driver@3229][0m Relaxing hidden api policy
+[38;5;229m[ADB][0m Running 'C:\Users\User\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell 'settings put global hidden_api_policy_pre_p_apps 1;settings put global hidden_api_policy_p_apps 1;settings put global hidden_api_policy 1''
+[38;5;229m[ADB][0m Running 'C:\Users\User\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 wait-for-device'
+[38;5;229m[ADB][0m Running 'C:\Users\User\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell echo ping'
+[38;5;-29m[AndroidUiautomator2Driver@3229][0m Pushing settings apk to the device...
+[38;5;229m[ADB][0m Getting package info for 'io.appium.settings'
+[38;5;229m[ADB][0m Running 'C:\Users\User\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package io.appium.settings'
+[38;5;229m[ADB][0m The version code of the installed 'io.appium.settings' is greater than the application version code (94 > 93)
+[38;5;229m[ADB][0m There is no need to downgrade 'io.appium.settings'
+[38;5;229m[ADB][0m Running 'C:\Users\User\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys activity services io.appium.settings'
+[38;5;229m[ADB][0m Running 'C:\Users\User\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell cmd notification allow_listener io.appium.settings/.NLService'
+[38;5;229m[ADB][0m Running 'C:\Users\User\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell appops set io.appium.settings PROJECT_MEDIA allow'
+[38;5;229m[ADB][0m Running 'C:\Users\User\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys activity services io.appium.settings'
+[38;5;78m[SettingsApp][0m Starting Appium Settings app
+[38;5;229m[ADB][0m Running 'C:\Users\User\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell am start -n io.appium.settings/.Settings -a android.intent.action.MAIN -c android.intent.category.LAUNCHER'
+[38;5;229m[ADB][0m Running 'C:\Users\User\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys activity services io.appium.settings'
+[38;5;229m[ADB][0m Running 'C:\Users\User\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys activity services io.appium.settings'
+[38;5;229m[ADB][0m Running 'C:\Users\User\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys activity services io.appium.settings'
+[38;5;229m[ADB][0m Running 'C:\Users\User\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys activity services io.appium.settings'
+[38;5;229m[ADB][0m Running 'C:\Users\User\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys activity services io.appium.settings'
+[38;5;229m[ADB][0m Running 'C:\Users\User\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys activity services io.appium.settings'
+[38;5;229m[ADB][0m Running 'C:\Users\User\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys activity services io.appium.settings'
+[38;5;229m[ADB][0m Running 'C:\Users\User\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys activity services io.appium.settings'
+[38;5;229m[ADB][0m Running 'C:\Users\User\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys activity services io.appium.settings'
+[38;5;229m[ADB][0m Running 'C:\Users\User\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys activity services io.appium.settings'
+[38;5;229m[ADB][0m Running 'C:\Users\User\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys activity services io.appium.settings'
+[38;5;229m[ADB][0m Running 'C:\Users\User\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys activity services io.appium.settings'
+[38;5;229m[ADB][0m Running 'C:\Users\User\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys activity services io.appium.settings'
+[38;5;229m[ADB][0m Running 'C:\Users\User\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys activity services io.appium.settings'
+[38;5;229m[ADB][0m Running 'C:\Users\User\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys activity services io.appium.settings'
+[38;5;229m[ADB][0m Running 'C:\Users\User\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys activity services io.appium.settings'
+[38;5;229m[ADB][0m Running 'C:\Users\User\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys activity services io.appium.settings'
+[38;5;229m[ADB][0m Running 'C:\Users\User\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys activity services io.appium.settings'
+[38;5;229m[ADB][0m Running 'C:\Users\User\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys activity services io.appium.settings'
+[38;5;229m[ADB][0m Running 'C:\Users\User\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys activity services io.appium.settings'
+[38;5;229m[ADB][0m Running 'C:\Users\User\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys activity services io.appium.settings'
+[38;5;229m[ADB][0m Running 'C:\Users\User\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys activity services io.appium.settings'
+[38;5;229m[ADB][0m Running 'C:\Users\User\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys activity services io.appium.settings'
+[38;5;-29m[AndroidUiautomator2Driver@3229][0m Error: Appium Settings app is not running after 30000ms
+    at SettingsApp.requireRunning (C:\Users\User\Downloads\appium-webdriverio-cucumber-master\appium-webdriverio-cucumber-master\node_modules\appium-uiautomator2-driver\node_modules\io.appium.settings\lib\client.js:97:13)
+    at AndroidUiautomator2Driver.pushSettingsApp (C:\Users\User\Downloads\appium-webdriverio-cucumber-master\appium-webdriverio-cucumber-master\node_modules\appium-uiautomator2-driver\node_modules\appium-android-driver\lib\commands\device\utils.js:250:5)
+    at AndroidUiautomator2Driver.initDevice (C:\Users\User\Downloads\appium-webdriverio-cucumber-master\appium-webdriverio-cucumber-master\node_modules\appium-uiautomator2-driver\node_modules\appium-android-driver\lib\commands\device\common.js:223:5)
+[38;5;-29m[AndroidUiautomator2Driver@3229][0m Deleting UiAutomator2 session
+[38;5;229m[ADB][0m Running 'C:\Users\User\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys activity services io.appium.settings/.recorder.RecorderService'
+[38;5;-29m[AndroidUiautomator2Driver@3229][0m Restoring hidden api policy to the device default configuration
+[38;5;229m[ADB][0m Running 'C:\Users\User\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell 'settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy''
+[38;5;18m[AppiumDriver@bc96][0m Event 'newSessionStarted' logged at 1721454230396 (11:13:50 GMT+0530 (India Standard Time))
+[38;5;18m[AppiumDriver@bc96][0m Encountered internal error running command: Error: Appium Settings app is not running after 30000ms
+    at SettingsApp.requireRunning (C:\Users\User\Downloads\appium-webdriverio-cucumber-master\appium-webdriverio-cucumber-master\node_modules\appium-uiautomator2-driver\node_modules\io.appium.settings\lib\client.js:97:13)
+    at AndroidUiautomator2Driver.pushSettingsApp (C:\Users\User\Downloads\appium-webdriverio-cucumber-master\appium-webdriverio-cucumber-master\node_modules\appium-uiautomator2-driver\node_modules\appium-android-driver\lib\commands\device\utils.js:250:5)
+    at AndroidUiautomator2Driver.initDevice (C:\Users\User\Downloads\appium-webdriverio-cucumber-master\appium-webdriverio-cucumber-master\node_modules\appium-uiautomator2-driver\node_modules\appium-android-driver\lib\commands\device\common.js:223:5)
+[38;5;86m[HTTP][0m [37m<-- POST /session [39m[31m500[39m [90m37456 ms - 736[39m [90m[39m

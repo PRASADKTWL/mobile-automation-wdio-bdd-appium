@@ -1,0 +1,7 @@
+"Epic","Feature","Story","FAILED","BROKEN","PASSED","SKIPPED","UNKNOWN"
+"","Login to SauceLabs mobile application: Invalid username and password","","0","0","6","0","0"
+"","","","5","0","0","0","0"
+"","Login to SauceLabs mobile application: Validate enter username but no password","","0","0","5","0","0"
+"","Login to SauceLabs mobile application: Locked username and password","","0","0","6","0","0"
+"","Login to SauceLabs mobile application: Valid username and password","","0","1","6","0","0"
+"","Login to SauceLabs mobile application: Validate no username and no password","","0","0","4","0","0"
