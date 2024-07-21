@@ -42,9 +42,9 @@ exports.config = {
         'appium:app': path.join(process.cwd(), './app/andriod/Android-MyDemoAppRN.1.3.0.build-244.apk'),
         "appium:appActivity": "com.saucelabs.mydemoapp.rn.MainActivity",
         "appium:appPackage": "com.saucelabs.mydemoapp.rn",
-        'appium:noReset': true,
+        'appium:noReset': false,
         'appium:newCommandTimeout': 180,
-        'appium:fullReset': false,
+        'appium:fullReset': true,
     }],
 
     // ===================
